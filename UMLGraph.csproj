@@ -136,6 +136,14 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="Grupos\Grupo2\NClass_v1.01_src\src\GUI\GUI.csproj">
+      <Project>{a2918ce1-6894-4fc9-a864-4651769d0274}</Project>
+      <Name>GUI</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Grupos\Grupo2\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

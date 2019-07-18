@@ -13,6 +13,7 @@ using UMLGraph.Grupos.Grupo3.Interfaz;
 using UMLGraph.Grupos.Grupo3;
 using UMLGraph.Grupos.Grupo3.Figuras;
 using UMLGraph.Grupos.Grupo6.FigurasGr6;
+using NClass.GUI;
 
 namespace UMLGraph
 {
@@ -37,6 +38,7 @@ namespace UMLGraph
             //En las lineas siguientes creo una lista de grupos para que se pueda seleccionar GR1,GR2,...
             var grupos = new List<Groups>();//Se creo una clase Groups sencilla que guarda un name y un value
             grupos.Add(new Groups() { Name = "Grupo X", Value = "GRX" });//Agregue los gurpos el codigo original es el X de esta forma deberian agregarse los siguientes grupos
+            grupos.Add(new Groups() { Name = "Grupo 2", Value = "GR2" });
             grupos.Add(new Groups() { Name = "Grupo 3", Value = "GR3" });
             grupos.Add(new Groups() { Name = "Grupo 5", Value = "GR5" });
             grupos.Add(new Groups() { Name = "Grupo 6", Value = "GR6" });
@@ -220,7 +222,7 @@ namespace UMLGraph
 
         private void InterfazGrafica_Load(object sender, EventArgs e)
         {
-
+             
         }
       
         
@@ -234,7 +236,16 @@ namespace UMLGraph
                 Controls.Add(gr3.masterPanel);
                 this.selected = "GR3";
             }
-          
+            if (CmbSelecGrupo.GetItemText(CmbSelecGrupo.SelectedItem).Equals("Grupo 2"))
+            {
+                panel4.Visible = true;
+                MainForm project = new MainForm();
+                project.TopLevel = false;
+                project.AutoScroll = true;
+                panel4.Controls.Add(project);
+                project.Show();
+            }
+
         }
 
         private void BtnRelacion_Click(object sender, EventArgs e)
