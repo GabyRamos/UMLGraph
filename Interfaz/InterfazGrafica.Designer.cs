@@ -68,7 +68,7 @@
             // btnClase
             // 
             this.btnClase.Location = new System.Drawing.Point(4, 176);
-            this.btnClase.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnClase.Margin = new System.Windows.Forms.Padding(4);
             this.btnClase.Name = "btnClase";
             this.btnClase.Size = new System.Drawing.Size(176, 28);
             this.btnClase.TabIndex = 0;
@@ -79,7 +79,7 @@
             // btnRelacion
             // 
             this.btnRelacion.Location = new System.Drawing.Point(4, 247);
-            this.btnRelacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRelacion.Margin = new System.Windows.Forms.Padding(4);
             this.btnRelacion.Name = "btnRelacion";
             this.btnRelacion.Size = new System.Drawing.Size(176, 28);
             this.btnRelacion.TabIndex = 1;
@@ -90,7 +90,7 @@
             // btnHerencia
             // 
             this.btnHerencia.Location = new System.Drawing.Point(4, 390);
-            this.btnHerencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnHerencia.Margin = new System.Windows.Forms.Padding(4);
             this.btnHerencia.Name = "btnHerencia";
             this.btnHerencia.Size = new System.Drawing.Size(176, 28);
             this.btnHerencia.TabIndex = 2;
@@ -100,7 +100,7 @@
             // btnInterfaz
             // 
             this.btnInterfaz.Location = new System.Drawing.Point(4, 212);
-            this.btnInterfaz.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnInterfaz.Margin = new System.Windows.Forms.Padding(4);
             this.btnInterfaz.Name = "btnInterfaz";
             this.btnInterfaz.Size = new System.Drawing.Size(176, 28);
             this.btnInterfaz.TabIndex = 4;
@@ -111,7 +111,7 @@
             // btnAgregacion
             // 
             this.btnAgregacion.Location = new System.Drawing.Point(4, 283);
-            this.btnAgregacion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnAgregacion.Margin = new System.Windows.Forms.Padding(4);
             this.btnAgregacion.Name = "btnAgregacion";
             this.btnAgregacion.Size = new System.Drawing.Size(176, 28);
             this.btnAgregacion.TabIndex = 6;
@@ -121,7 +121,7 @@
             // btnDependencia
             // 
             this.btnDependencia.Location = new System.Drawing.Point(4, 319);
-            this.btnDependencia.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnDependencia.Margin = new System.Windows.Forms.Padding(4);
             this.btnDependencia.Name = "btnDependencia";
             this.btnDependencia.Size = new System.Drawing.Size(176, 28);
             this.btnDependencia.TabIndex = 7;
@@ -132,7 +132,7 @@
             // btnComposicion
             // 
             this.btnComposicion.Location = new System.Drawing.Point(4, 354);
-            this.btnComposicion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnComposicion.Margin = new System.Windows.Forms.Padding(4);
             this.btnComposicion.Name = "btnComposicion";
             this.btnComposicion.Size = new System.Drawing.Size(176, 28);
             this.btnComposicion.TabIndex = 8;
@@ -142,7 +142,7 @@
             // button5
             // 
             this.button5.Location = new System.Drawing.Point(16, 553);
-            this.button5.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.button5.Margin = new System.Windows.Forms.Padding(4);
             this.button5.Name = "button5";
             this.button5.Size = new System.Drawing.Size(165, 28);
             this.button5.TabIndex = 9;
@@ -152,7 +152,7 @@
             // btnBorrarLienzo
             // 
             this.btnBorrarLienzo.Location = new System.Drawing.Point(4, 663);
-            this.btnBorrarLienzo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnBorrarLienzo.Margin = new System.Windows.Forms.Padding(4);
             this.btnBorrarLienzo.Name = "btnBorrarLienzo";
             this.btnBorrarLienzo.Size = new System.Drawing.Size(176, 28);
             this.btnBorrarLienzo.TabIndex = 10;
@@ -207,7 +207,7 @@
             this.CmbSelecGrupo.Items.AddRange(new object[] {
             "Grupo 5"});
             this.CmbSelecGrupo.Location = new System.Drawing.Point(11, 90);
-            this.CmbSelecGrupo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.CmbSelecGrupo.Margin = new System.Windows.Forms.Padding(4);
             this.CmbSelecGrupo.Name = "CmbSelecGrupo";
             this.CmbSelecGrupo.Size = new System.Drawing.Size(160, 24);
             this.CmbSelecGrupo.TabIndex = 12;
@@ -236,7 +236,7 @@
             this.pnlTitulo.Controls.Add(this.btnCerrar);
             this.pnlTitulo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlTitulo.Location = new System.Drawing.Point(0, 0);
-            this.pnlTitulo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pnlTitulo.Margin = new System.Windows.Forms.Padding(4);
             this.pnlTitulo.Name = "pnlTitulo";
             this.pnlTitulo.Size = new System.Drawing.Size(1333, 31);
             this.pnlTitulo.TabIndex = 16;
@@ -259,7 +259,7 @@
             this.btnRestaurar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnRestaurar.Image = ((System.Drawing.Image)(resources.GetObject("btnRestaurar.Image")));
             this.btnRestaurar.Location = new System.Drawing.Point(1271, 2);
-            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnRestaurar.Margin = new System.Windows.Forms.Padding(4);
             this.btnRestaurar.Name = "btnRestaurar";
             this.btnRestaurar.Size = new System.Drawing.Size(25, 23);
             this.btnRestaurar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -274,7 +274,7 @@
             this.btnMinimizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMinimizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMinimizar.Image")));
             this.btnMinimizar.Location = new System.Drawing.Point(1237, 4);
-            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMinimizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMinimizar.Name = "btnMinimizar";
             this.btnMinimizar.Size = new System.Drawing.Size(25, 23);
             this.btnMinimizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -288,7 +288,7 @@
             this.btnMaximizar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnMaximizar.Image = ((System.Drawing.Image)(resources.GetObject("btnMaximizar.Image")));
             this.btnMaximizar.Location = new System.Drawing.Point(1271, 4);
-            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnMaximizar.Margin = new System.Windows.Forms.Padding(4);
             this.btnMaximizar.Name = "btnMaximizar";
             this.btnMaximizar.Size = new System.Drawing.Size(25, 23);
             this.btnMaximizar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -302,7 +302,7 @@
             this.btnCerrar.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnCerrar.Image = ((System.Drawing.Image)(resources.GetObject("btnCerrar.Image")));
             this.btnCerrar.Location = new System.Drawing.Point(1304, 4);
-            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btnCerrar.Margin = new System.Windows.Forms.Padding(4);
             this.btnCerrar.Name = "btnCerrar";
             this.btnCerrar.Size = new System.Drawing.Size(25, 23);
             this.btnCerrar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -318,7 +318,7 @@
             this.panel3.Controls.Add(this.pictureBox1);
             this.panel3.Controls.Add(this.lblUsuario);
             this.panel3.Location = new System.Drawing.Point(0, 30);
-            this.panel3.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.panel3.Margin = new System.Windows.Forms.Padding(4);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(185, 127);
             this.panel3.TabIndex = 17;
@@ -327,7 +327,7 @@
             // 
             this.btbCerrarSesion.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold);
             this.btbCerrarSesion.Location = new System.Drawing.Point(19, 94);
-            this.btbCerrarSesion.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.btbCerrarSesion.Margin = new System.Windows.Forms.Padding(4);
             this.btbCerrarSesion.Name = "btbCerrarSesion";
             this.btbCerrarSesion.Size = new System.Drawing.Size(152, 28);
             this.btbCerrarSesion.TabIndex = 21;
@@ -339,7 +339,7 @@
             // 
             this.pictureBox1.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox1.Image")));
             this.pictureBox1.Location = new System.Drawing.Point(63, 9);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(4);
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.Size = new System.Drawing.Size(67, 62);
             this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -360,7 +360,8 @@
             // 
             // panel4
             // 
-            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)(((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Left) 
+            this.panel4.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
             | System.Windows.Forms.AnchorStyles.Right)));
             this.panel4.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
             this.panel4.Location = new System.Drawing.Point(193, 161);
@@ -382,7 +383,7 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.button5);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "InterfazGrafica";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "UMLGraph";

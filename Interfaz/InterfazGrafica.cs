@@ -242,6 +242,8 @@ namespace UMLGraph
                 MainForm project = new MainForm();
                 project.TopLevel = false;
                 project.AutoScroll = true;
+                project.Width = panel4.Width;
+                project.Height = panel4.Height;
                 panel4.Controls.Add(project);
                 project.Show();
             }
